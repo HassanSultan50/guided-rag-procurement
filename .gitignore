@@ -1,0 +1,45 @@
+# ---- Secrets / local config (NEVER commit) ----
+local.settings.json
+*.local.settings.json
+!example.local.settings.json
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+env/
+venv/
+.venv/
+
+# ---- Vector stores / local data artifacts ----
+vector_db/
+chroma/
+*.faiss
+*.parquet
+
+# ---- Datasets / experiment outputs (keep this repo code-only) ----
+ground_truth_data/
+ground_truth_data_backup_*/
+experiment_results/
+rag_responses*/
+rfx_snapshots/
+rfx_summaries/
+
+# ---- Azure Functions / build ----
+bin/
+obj/
+.azurefunctions/
+
+# ---- Editor / OS ----
+.vs/
+*.user
+.DS_Store

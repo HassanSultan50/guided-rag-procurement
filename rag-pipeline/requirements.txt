@@ -1,0 +1,14 @@
+# Azure Functions runtime
+azure-functions
+
+# Azure AI Foundry — Mistral 7B chat + embeddings
+azure-ai-inference>=1.0.0b9
+
+# Azure Cosmos DB — vector storage (replaces ChromaDB)
+azure-cosmos>=4.7.0
+
+# HTTP calls to RFX API
+requests
+
+# Langfuse — LLM observability & tracing
+langfuse>=4.0.0

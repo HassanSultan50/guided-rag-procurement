@@ -1,0 +1,11 @@
+requests
+langchain
+langchain-openai
+chromadb
+python-dotenv
+langchain-ollama
+langchain-huggingface
+langchain-community
+sentence-transformers
+langchain-chroma
+azure-storage-queue
